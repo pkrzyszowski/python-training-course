@@ -1,0 +1,6 @@
+dea/workspace.xml
+wp
+env/*
+.idea/*
+*.pyc
+.idea/workspace.xml
