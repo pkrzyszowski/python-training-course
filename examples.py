@@ -1,15 +1,16 @@
-a =  { 1: 'Poniedziałek',
-       2: 'Wtorek',
-       3: 'Środa',
-       4: 'Czwartek',
-       5: 'Piątek',
-       6: 'Sobota',
-       7: 'Niedziela', }
-
-for x in list(a):
-    if x % 2 == 0:
-        continue  # wykonaj nastepny krok petli for
+def odlicz(n):
+    if n <= 0:
+        print('Odpalamy!')
     else:
-        del a[x]
-    print(dict((v, k) for (k, v) in a.items()))
+        print(n)
+        odlicz(n - 1)
 
+odlicz(3)
+
+def drukuj_n(s, n):
+    if n <= 0:
+        return
+    print(s)
+    drukuj_n(s, n - 1)
+
+drukuj_n('string', -1)
