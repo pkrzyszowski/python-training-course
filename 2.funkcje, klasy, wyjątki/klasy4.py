@@ -24,6 +24,7 @@ print(id(b))
 b.where_am_i()
 print(b.x)
 print(b.y)
+b.hello()
 
 c = Point(5, 6)
 c.where_am_i()

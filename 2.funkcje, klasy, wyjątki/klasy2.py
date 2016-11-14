@@ -6,18 +6,18 @@ a = NazwaKlasy()
 print(type(a))
 print(id(a))
 a.hello()
+#
+# b = NazwaKlasy()
+# print(type(b))
+# print(id(b))
+# b.hello()
+#
+# print(type(NazwaKlasy))
+# print(id(NazwaKlasy))
 
-b = NazwaKlasy()
-print(type(b))
-print(id(b))
-b.hello()
 
-print(type(NazwaKlasy))
-print(id(NazwaKlasy))
-
-
-c = [1, 2, 3]
-print(c.__len__())
-print(len(c))
-
-print(c.__str__())
+# c = [1, 2, 3]
+# print(c.__len__())
+# print(len(c))
+#
+# print(c.__str__())
